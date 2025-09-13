@@ -48,6 +48,12 @@ function guessTheNumber() {
     message.innerHTML = "Tam sayı dedim.";
     return;
   }
+  //çok gizli özellik
+  if (userGuess === 5){
+    window.location.replace("https://www.youtube.com/shorts/7WF9zPYsw4U?feature=share");
+    return;
+  }
+  
   remainingTries--;
   denemeSayisi++;
   numberOfTries.innerHTML = remainingTries;
