@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #29348f;
+    background-color: #635e50;
     color: white;
     font-family: Arial;
     display: flex;
@@ -15,7 +15,7 @@ body {
 }
 
 .container {
-    background-color: #324ea8;
+    background-color: #2e2d29;
     padding: 30px;
     border-radius: 30px; 
     box-shadow: 0 5px 15px rgba(0, 0, 0, 2); 
