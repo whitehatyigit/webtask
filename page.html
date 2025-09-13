@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sayı Tahmin Oyunu</title>
+        <link rel = "stylesheet" href = "style.css">
+    </head>
+    <body>
+        <div class = "container">
+            <div class="header">
+                <h1 id = "title">Sayı Tahmin Oyunu</h1>
+                <h3 id = "description">1 ile 100 Arasında Bir Tam Sayı Girin</h3>
+            </div>
+            <div class = "input-area">
+                <input type = "number" id = "input" placeholder = "Bir tam sayı girin">
+                <button id = "btn">Tahmin Et</button>
+                <button id = "btn2">Sıfırla</button>
+            </div>
+            <div class="message-area">
+                    <p id = "message-text" style="color: red;"></p>
+                    <h3 id = "attempts-title" style="color: black;"> Denemeleriniz:</h3>
+                    <p id = "number-of-attempts">0</p>
+                    <h3 id = "tries-title" style="color: black;">Tahmin Hakkınız:</h3>
+                    <p id = "number-of-tries">10</p>
+            </div>
+            </div>
+        </div>
+        <script src = "script.js"></script>
+    </body>
+</html>
